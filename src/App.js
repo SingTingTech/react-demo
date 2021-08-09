@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div className='App'>
-      <h1>Hello {user ? user : 'stranger'}</h1>
+      <h1>Hello {user ? user : "stranger"}</h1>
     </div>
   )
 }
