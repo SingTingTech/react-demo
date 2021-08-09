@@ -45,8 +45,7 @@
   "lint-staged": {
     "*.js": [
       "eslint",
-      "prettier --write .",
-      "git diff --name-only --cached | xargs -l git add"
+      "prettier --write"
     ]
   }
 }
