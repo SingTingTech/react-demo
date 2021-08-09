@@ -2,7 +2,7 @@ import logo from './logo.svg'
 import './App.css'
 
 function App() {
-  const user = undefined
+  const user = undefined;
 
   return (
     <div className='App'>
