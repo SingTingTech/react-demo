@@ -43,6 +43,6 @@
     "lint-staged": "^11.1.2"
   },
   "lint-staged": {
-    "*.js": "eslint --cache --fix"
+    "*.js": ["eslint","prettier --write ."]
   }
 }
